@@ -1,0 +1,19 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --height-ui: var(--size-15);
+  --height-ui-sm: var(--size-13);
+  --height-ui-lg: var(--size-16);
+  --height-ui-xl: var(--size-17);
+  --padding-ui: var(--size-6);
+  --padding-ui-sm: var(--size-5);
+  --padding-ui-lg: var(--size-7);
+  --padding-ui-xl: var(--size-8);
+  --margin-ui: var(--size-9);
+  --gap-ui: var(--size-7);
+  --gap-ui-sm: var(--size-6);
+  --gap-ui-lg: var(--size-8);
+  --gap-ui-xl: var(--size-9);
+}

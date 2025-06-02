@@ -1,0 +1,76 @@
+{
+  "name": "@netoum/modex-css",
+  "version": "0.0.2",
+  "description": "Corex Modex CSS template providing global design tokens and component-level utility styles for scalable UI development.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/neo.css",
+  "unpkg": "./dist/neo.css",
+  "jsdelivr": "./dist/neo.css",
+  "exports": {
+    ".": {
+      "default": "./dist/neo.css"
+    },
+    "./*.css": {
+      "default": "./dist/*.css"
+    },
+  
+    "./tokens/global/*.css": {
+      "default": "./dist/tokens/global/*.css"
+    },
+
+    "./tokens/neo/semantic/*.css": {
+      "default": "./dist/tokens/neo/semantic/*.css"
+    },
+
+    "./tokens/neo/mode/*.css": {
+      "default": "./dist/tokens/neo/mode/*.css"
+    },
+
+    "./tokens/revo/semantic/*.css": {
+      "default": "./dist/tokens/revo/semantic/*.css"
+    },
+
+    "./tokens/revo/mode/*.css": {
+      "default": "./dist/tokens/revo/mode/*.css"
+    },
+
+    "./tokens/uno/semantic/*.css": {
+      "default": "./dist/tokens/uno/semantic/*.css"
+    },
+
+    "./tokens/uno/mode/*.css": {
+      "default": "./dist/tokens/uno/mode/*.css"
+    },
+
+    "./components/*.css": {
+      "default": "./dist/components/*.css"
+    }
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/netoum/modex-css.git"
+  },
+  "author": "Netoum <info@netoum.com> (https://www.netoum.com)",
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "package.json",
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "npm run build:neo && npm run build:revo && npm run build:uno",
+    "build:neo": "npx designex build --script=design/neo/build.mjs && node build.mjs",
+    "build:revo": "npx designex build --script=design/revo/build.mjs && node build.mjs",
+    "build:uno": "npx designex build --script=design/uno/build.mjs && node build.mjs",
+    "build:from:css": "node build.mjs"
+  },
+  "devDependencies": {
+    "@netoum/designex": "^1.0.2",
+    "@tokens-studio/sd-transforms": "^1.2.9",
+    "style-dictionary": "^4.3.0",
+    "turbo": "^2.5.0",
+    "fs-extra": "^11.3.0"
+  }
+}

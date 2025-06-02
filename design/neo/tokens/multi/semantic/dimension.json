@@ -1,0 +1,70 @@
+{
+  "height": {
+    "ui": {
+      "default": {
+        "value": "{size.15}",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "{size.13}",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "{size.16}",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "{size.17}",
+        "type": "sizing"
+      }
+    }
+  },
+  "padding": {
+    "ui": {
+      "default": {
+        "value": "{size.6}",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "{size.5}",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "{size.7}",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "{size.8}",
+        "type": "sizing"
+      }
+    }
+  },
+  "margin": {
+    "ui": {
+      "default": {
+        "value": "{size.9}",
+        "type": "sizing"
+      }
+    }
+  },
+  "gap": {
+    "ui": {
+      "default": {
+        "value": "{size.7}",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "{size.6}",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "{size.8}",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "{size.9}",
+        "type": "sizing"
+      }
+    }
+  }
+}

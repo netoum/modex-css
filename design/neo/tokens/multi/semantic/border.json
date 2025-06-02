@@ -1,0 +1,22 @@
+{
+  "border": {
+    "radius": {
+      "default": {
+        "value": "{border.radius.2}",
+        "type": "borderRadius"
+      }
+    },
+    "width": {
+      "default": {
+        "value": "{border.width.1}",
+        "type": "borderWidth"
+      }
+    },
+    "color": {
+      "default": {
+        "value": "{color.base.5}",
+        "type": "color"
+      }
+    }
+  }
+}

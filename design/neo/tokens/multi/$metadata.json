@@ -1,0 +1,14 @@
+{
+  "tokenSetOrder": [
+    "global/border",
+    "global/font",
+    "global/dimension",
+    "global/color",
+    "semantic/color",
+    "semantic/border",
+    "semantic/font",
+    "semantic/dimension",
+    "mode/light",
+    "mode/dark"
+  ]
+}

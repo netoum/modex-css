@@ -1,0 +1,38 @@
+{
+  "font": {
+    "family": {
+      "default": {
+        "value": "{font.outfit}",
+        "type": "fontFamily"
+      },
+      "code": {
+        "value": "{font.monospace-code}",
+        "type": "fontFamily"
+      }
+    },
+    "size": {
+      "default": {
+        "value": "{font.size.5}",
+        "type": "fontSize"
+      },
+      "sm": {
+        "value": "{font.size.4}",
+        "type": "fontSize"
+      },
+      "lg": {
+        "value": "{font.size.6}",
+        "type": "fontSize"
+      },
+      "xl": {
+        "value": "{font.size.7}",
+        "type": "fontSize"
+      }
+    },
+    "line-height": {
+      "default": {
+        "value": "{font.line-height.4}",
+        "type": "lineHeight"
+      }
+    }
+  }
+}
