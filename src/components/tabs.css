@@ -36,6 +36,7 @@
   border-start-end-radius: var(--border-radius);
   border-width: var(--border-width);
   border-color: var(--border-color);
+  border-style: solid;
 }
 
 .tabs [data-scope="tabs"][data-part="trigger"] {
@@ -86,7 +87,7 @@
 }
 
 .tabs [data-scope="tabs"][data-part="trigger"]:disabled,
-.tabs [data-scope="tabs"][data-part="trigger"][data-disabled]  {
+.tabs [data-scope="tabs"][data-part="trigger"][data-disabled] {
   opacity: 0.6;
   pointer-events: none;
   box-shadow: none;
@@ -125,6 +126,7 @@
   color: var(--color-ui-contrast);
   border-width: var(--border-width);
   border-color: var(--border-color);
+  border-style: solid;
   border-bottom: 0;
 }
 
@@ -151,6 +153,7 @@
   border-radius: 0;
   border-width: var(--border-width);
   border-color: var(--border-color);
+  border-style: solid;
   border-bottom: 0;
 }
 
@@ -177,18 +180,18 @@
 }
 
 .tabs--sm [data-scope="tabs"][data-part="trigger"] {
-  height: calc(var(--height-ui) * var(--ratio-sm));
-  font-size: calc(var(--font-size) * var(--ratio-sm));
+  height: var(--height-ui-sm);
+  font-size: var(--font-size-sm);
 }
 
 .tabs--lg [data-scope="tabs"][data-part="trigger"] {
-  height: calc(var(--height-ui) * var(--ratio-lg));
-  font-size: calc(var(--font-size) * var(--ratio-lg));
+  height: var(--height-ui-lg);
+  font-size: var(--font-size-lg);
 }
 
 .tabs--xl [data-scope="tabs"][data-part="trigger"] {
-  height: calc(var(--height-ui) * var(--ratio-xl));
-  font-size: calc(var(--font-size) * var(--ratio-xl));
+  height: var(--height-ui-lg);
+  font-size: var(--font-size-lg);
 }
 
 .tabs--brand [data-scope="tabs"][data-part="trigger"]:hover {
@@ -241,9 +244,6 @@
   color: var(--color-accent-contrast);
 }
 
-/* .tabs--alert [data-scope="tabs"][data-part="trigger"] {
-    background-color: var(--color-ui-alert);
-  } */
 .tabs--alert [data-scope="tabs"][data-part="trigger"]:hover {
   background-color: var(--color-ui-alert-1);
 }

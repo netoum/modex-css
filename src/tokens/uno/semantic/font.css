@@ -3,7 +3,7 @@
  */
 
 :root {
-  --font-line-height: var(--font-line-height-5);
+  --font-line-height: var(--font-line-height-8);
   --font-size: var(--font-size-4);
   --font-size-sm: var(--font-size-3);
   --font-size-lg: var(--font-size-5);

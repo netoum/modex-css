@@ -1,5 +1,6 @@
-.listbox {
+.listbox [data-part="root"] {
   outline: none;
+  display: none;
 }
 
 .listbox [data-scope="listbox"][data-part="root"] {
@@ -36,6 +37,7 @@
     border-radius: 0;
     border-width: var(--border-width);
     border-color: var(--border-color);
+    border-style: solid;
   }
 }
 
@@ -54,6 +56,7 @@
   border-radius: var(--border-radius);
   border-width: var(--border-width);
   border-color: var(--border-color);
+  border-style: solid;
   height: var(--height-ui);
   padding: var(--padding-ui);
   gap: var(--gap-ui);

@@ -30,7 +30,7 @@
     },
     "line-height": {
       "default": {
-        "value": "{font.line-height.3}",
+        "value": "{font.line-height.8}",
         "type": "lineHeight"
       }
     }
