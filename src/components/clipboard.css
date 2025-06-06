@@ -24,6 +24,7 @@
   border-radius: var(--border-radius);
   border-width: var(--border-width);
   border-color: var(--border-color);
+  border-style: solid;
 }
 
 .clipboard [data-scope="clipboard"][data-part="input"]:focus-visible {
