@@ -1,5 +1,6 @@
 .date-picker [data-scope="date-picker"][data-part="control"] {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--gap-ui);
 }
 

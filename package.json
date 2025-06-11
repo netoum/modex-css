@@ -1,6 +1,6 @@
 {
   "name": "@netoum/modex-css",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Corex Modex CSS template providing global design tokens and component-level utility styles for scalable UI development.",
   "license": "MIT",
   "type": "module",
